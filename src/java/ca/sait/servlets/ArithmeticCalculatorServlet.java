@@ -82,7 +82,7 @@ public class ArithmeticCalculatorServlet extends HttpServlet {
                         request.setAttribute("result", firstInt * secInt);
                         break;
                     default:
-                        request.setAttribute("result", firstInt / secInt);
+                        request.setAttribute("result", firstInt % secInt);
                         break;
                 }
             } 

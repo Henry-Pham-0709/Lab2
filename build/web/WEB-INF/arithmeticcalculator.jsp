@@ -26,7 +26,7 @@
             <input type="submit" name="calc" value="+">
             <input type="submit" name="calc" value="-">
             <input type="submit" name="calc" value="*">
-            <input type="submit" name="calc" value="/">
+            <input type="submit" name="calc" value="%">
             </div>
             
             <p>Result: <%= request.getAttribute("result") %></p>
